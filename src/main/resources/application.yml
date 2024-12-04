@@ -27,4 +27,4 @@ management:
         include: "*"
 
 music-service:
-  greet: "Hello, World! (music from local)"
+  greeting: "Hello, World! (music from local)"
