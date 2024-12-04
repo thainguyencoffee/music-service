@@ -1,5 +1,5 @@
-firstapp:
-  greet: "Hello, World! (from k8s)"
+music-service:
+  greet: "Hello, World! (music from k8s)"
 
 spring:
   datasource:
