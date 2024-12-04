@@ -1,0 +1,6 @@
+firstapp:
+  greet: "Hello, World! (from k8s)"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres/music
