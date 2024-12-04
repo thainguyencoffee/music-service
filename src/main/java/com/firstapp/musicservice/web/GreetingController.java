@@ -15,7 +15,7 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting() {
-        return musicServiceProperties.greet();
+        return musicServiceProperties.greeting();
     }
 
 }

@@ -1,5 +1,5 @@
 music-service:
-  greet: "Hello, World! (music from k8s)"
+  greeting: "Hello, World! (music from k8s)"
 
 spring:
   datasource:
