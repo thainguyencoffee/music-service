@@ -1,21 +1,21 @@
 package com.firstapp.musicservice.web;
 
-import com.firstapp.musicservice.config.FirstappProperties;
+import com.firstapp.musicservice.config.MusicServiceProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingController {
 
-    private final FirstappProperties firstappProperties;
+    private final MusicServiceProperties musicServiceProperties;
 
-    public GreetingController(FirstappProperties firstappProperties) {
-        this.firstappProperties = firstappProperties;
+    public GreetingController(MusicServiceProperties musicServiceProperties) {
+        this.musicServiceProperties = musicServiceProperties;
     }
 
     @GetMapping("/greeting")
     public String greeting() {
-        return firstappProperties.greet();
+        return musicServiceProperties.greet();
     }
 
 }

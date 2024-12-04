@@ -1,6 +1,8 @@
 spring:
   application:
     name: music-service
+  profiles:
+    active: dev
   datasource:
     url: jdbc:postgresql://localhost:5432/music
     username: postgres
@@ -24,5 +26,5 @@ management:
       exposure:
         include: "*"
 
-firstapp:
-  greet: "Hello, World! (from local)"
+music-service:
+  greet: "Hello, World! (music from local)"
