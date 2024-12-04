@@ -3,9 +3,7 @@ on:
   workflow_run:
     workflows: ['Commit Stage']
     types: [completed]
-    branches:
-      - main
-      - thainguyen101
+    branches: [main, thainguyen101]
 concurrency: acceptance
 
 env:
